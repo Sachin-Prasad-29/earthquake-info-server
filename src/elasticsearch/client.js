@@ -1,11 +1,11 @@
 const { Client } = require('@elastic/elasticsearch');
 
-const cofig = require('config');
+const config = require('config');
 
 const elasticConfig = config.get('elastic');
 
 const client = new Client({
-    could: {
+    cloud: {
         id: elasticConfig.cloudID,
     },
     auth: {
