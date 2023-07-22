@@ -1,5 +1,4 @@
 const { Client } = require('@elastic/elasticsearch');
-
 const config = require('config');
 
 const elasticConfig = config.get('elastic');
@@ -9,14 +8,13 @@ const client = new Client({
         id: elasticConfig.cloudID,
     },
     auth: {
-        username: elasticConfig.username,
-        password: elasticConfig.password,
+        apiKey: elasticConfig.apiKey,
     },
 });
 
 client
     .ping()
-    .then((response) => console.log('You are connected to ElasticSearch !'))
-    .catch((error) => console.log('ElasticSearch is not connected.'));
+    .then((response) => console.log('You are connected to Elasticsearch!'))
+    .catch((error) => console.error('Elasticsearch is not connected.'));
 
 module.exports = client;

@@ -2,6 +2,7 @@
     "elastic": {
         "cloudID": "My_deployment:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyQzNDMzZGVhMWUwY2U0YmYzYjY5YzkyMTAyNDc3YzM4ZiQwNjNhYTIyODA3YzE0OTFlOWM3OThmYjNhYTA5ZjJhYg==",
         "username": "elastic",
-        "password": "ZK7ijwc4aN1bL2DkIVa01Nzd"
+        "password": "ZK7ijwc4aN1bL2DkIVa01Nzd",
+        "apiKey":"VlZpVDZJUUI2QmUySVRrbDM5VlI6c3F3RWZrQUtTQ095XzBXU2xidlpVUQ=="
     }
 }
